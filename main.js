@@ -15,8 +15,8 @@ form.addEventListener('submit', function (e) {
     mensagem.className = 'message';
     mensagem.innerHTML = '';
 
-    const mensagemSucesso = `O campo B <b>${valorB}</b> é maior que o campo A: <b>${valorA}</b>`;
-    const mensagemError = `O campo B <b>${valorB}</b> é menor ou igual ao campo A: <b>${valorA}</b>`;
+    const mensagemSucesso = `O campo B: <b>${valorB}</b> é maior que o campo A: <b>${valorA}</b>`;
+    const mensagemError = `O campo B: <b>${valorB}</b> é menor ou igual ao campo A: <b>${valorA}</b>`;
 
     if (valorB > valorA) {
         mensagem.classList.add('success-message');
